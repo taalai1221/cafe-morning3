@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе-утро</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="cafe-box">
+        <h1 class="main-title">Кафе-утро</h1>
+        <p class="description">Добро пожаловать в самое уютное кафе нашего города! Самый вкусный кофе, свежая выпечка и отличное настроение каждое утро.</p>
+
+        <img class="cafe-img" src="cafe morning.jpeg" alt="Фото кафе">
+
+        <h2 class="section-title">Почему выбрают нас:</h2>
+        <ul class="features-list">
+            <li>Только свежие натуральные ингредиенты</li>
+            <li>Уютная и теплая атмосфера</li>
+            <li>Быстрое и вежливое обслуживание</li>
+        </ul>
+
+        <h2 class="section-title">Наше-меню</h2>
+        <table class="menu-table">
+            <tr>
+                <th>Блюдо</th>
+                <th>Цены</th>
+            </tr>
+            <tr>
+                <td>Лагман</td>
+                <td>250 сом</td>
+            </tr>
+            <tr>
+                <td>Биштекс</td>
+                <td>270 сом</td>
+            </tr>
+            <tr>
+                <td>Жаренная картошка</td>
+                <td>180 сом</td>
+            </tr>
+            <tr>
+                <td>Гречка</td>
+                <td>200 сом</td>
+            </tr>
+        </table>
+
+        <h2 class="section-title">Забронировать столик</h2>
+        <form action="form.html" method="GET" class="booking-form">
+            <label>Ваше имя:</label><br>
+            <input type="text" name="userneme" placeholder="Введите имя" required><br><br>
+
+            <label>Колечество гостей:</label><br>
+            <select name="guests" id="guests">
+                <option>1 человек</option>
+                <option>2 человек</option>
+                <option>3 человек</option>
+                <option>Больше 4</option>
+            </select><br><br>
+
+            <label>Пожелания:</label><br>
+            <textarea name="comment" id="comment" placeholder="Ваше комментарие..."></textarea><br><br>
+            <button type="submit">Забронировать</button>
+        </form>
+
+        <p>
+            <a class="address-link" href="https://maps.google.com" target="_blank">Посмотреть адрес на карте</a>
+        </p>
+
+    </div>
+</body>
+</html>
